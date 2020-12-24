@@ -1,0 +1,11 @@
+matplotlib
+pandas
+numpy
+streamlit
+plotly
+click
+loguru
+opencv-python
+tqdm
+seaborn
+beautifulsoup4
