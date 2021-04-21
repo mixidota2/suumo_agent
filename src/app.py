@@ -32,7 +32,7 @@ def check_csv(location):
 """
 # Kusomusi Apartment Agent
 """
-locations = ["shinjuku", "shibuya"]
+locations = ["shinjuku", "shibuya", "yoyogi"]
 target_location = st.selectbox('select location', locations)
 f"location: {target_location}"
 

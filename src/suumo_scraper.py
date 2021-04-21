@@ -41,9 +41,11 @@ def get_url(location):
         return location, "https://suumo.jp/jj/chintai/ichiran/FR301FC001/?ar=030&bs=040&ra=013&rn=0005&ek=000519670&cb=0.0&ct=9.5&mb=20&mt=9999999&et=15&cn=9999999&co=1&shkr1=03&shkr2=03&shkr3=03&shkr4=03&sngz=&po1=04"
     elif location == "shibuya":
         return location, "https://suumo.jp/jj/chintai/ichiran/FR301FC001/?url=%2Fchintai%2Fichiran%2FFR301FC001%2F&ar=030&bs=040&pc=30&smk=&po1=04&po2=99&co=1&shkr1=03&shkr2=03&shkr3=03&shkr4=03&cb=0.0&ct=9.5&et=15&mb=20&mt=9999999&cn=9999999&ra=013&ek=000517640&rn=0005"
+    elif location == 'yoyogi':
+        return location, "https://suumo.jp/jj/chintai/ichiran/FR301FC001/?ar=030&bs=040&pc=20&smk=&po1=25&po2=99&shkr1=03&shkr2=03&shkr3=03&shkr4=03&rn=0005&ek=000541280&ra=013&cb=0.0&ct=9.0&et=15&mb=0&mt=9999999&cn=9999999&fw2="
     else:
         print("fuck it")
-        raise ValueError("Args must be in [shinjuku, shibuya]")
+        raise ValueError("Args must be in [shinjuku, shibuya, yoyogi]")
 
 @click.command()
 @click.option('--location', required=True, type=str, default="shinjuku")
