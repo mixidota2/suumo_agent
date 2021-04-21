@@ -16,7 +16,7 @@ Simply run `streamlit run src/app.py` to launch a streamlit server locally.
 Then you can access to the dashboard, which shows some nice data including some plots and url to the suumo pages.  
 
 ## Notes
-- Currently we support modes with only Shinjuku and Shibuya
+- Currently we support modes with only Shinjuku,  Shibuya, and Yoyogi
 - Apartments max fee is set to 95000 yen
 - Apartments max distance from the station is set to 15min by walk
 
